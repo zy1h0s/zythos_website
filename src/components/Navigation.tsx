@@ -4,10 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navLinks = [
-  { href: "/#about", label: "The Fusion" },
-  { href: "/#services", label: "Services" },
-  { href: "/#work", label: "Case Studies" },
-  { href: "/#team", label: "Leadership" },
+  { href: "/about", label: "About" },
+  { href: "/services", label: "Services" },
+  { href: "/work", label: "Case Studies" },
+  { href: "/insights", label: "Insights" },
 ];
 
 export default function Navigation() {
@@ -67,7 +67,7 @@ export default function Navigation() {
             </Link>
           ))}
           <Link
-            href="/#contact"
+            href="/contact"
             className="px-6 py-2.5 bg-accent text-bg-primary text-sm font-semibold rounded-full hover:bg-accent-hover transition-colors duration-300 hover:shadow-[0_0_30px_rgba(255,184,0,0.3)]"
           >
             Free Consultation
@@ -105,7 +105,7 @@ export default function Navigation() {
             </Link>
           ))}
           <Link
-            href="/#contact"
+            href="/contact"
             onClick={() => setMobileOpen(false)}
             className="mt-4 px-10 py-4 bg-accent text-bg-primary font-semibold rounded-full text-lg min-w-[200px] text-center"
           >

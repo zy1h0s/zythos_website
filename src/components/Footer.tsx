@@ -47,10 +47,17 @@ export default function Footer() {
           <div className="text-center sm:text-left">
             <h4 className="font-display font-semibold text-sm uppercase tracking-wider text-accent mb-4">Services</h4>
             <ul className="space-y-3">
-              {["Staff Augmentation", "Executive Search", "Custom Software", "Product Design", "AI & Data", "Cloud & DevOps"].map((s) => (
-                <li key={s}>
-                  <Link href="/#services" className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-200">
-                    {s}
+              {[
+                { label: "Staff Augmentation", href: "/services/talent/staff-augmentation" },
+                { label: "Executive Search", href: "/services/talent/executive-recruitment" },
+                { label: "Custom Software", href: "/services/labs/custom-software" },
+                { label: "Product Design", href: "/services/labs/product-design" },
+                { label: "AI & Data", href: "/services/labs/ai-data" },
+                { label: "Cloud & DevOps", href: "/services/labs/cloud-devops" },
+              ].map((s) => (
+                <li key={s.label}>
+                  <Link href={s.href} className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-200">
+                    {s.label}
                   </Link>
                 </li>
               ))}
@@ -62,11 +69,11 @@ export default function Footer() {
             <h4 className="font-display font-semibold text-sm uppercase tracking-wider text-accent mb-4">Company</h4>
             <ul className="space-y-3">
               {[
-                { label: "About Zytheq", href: "/#about" },
-                { label: "Case Studies", href: "/#work" },
-                { label: "Leadership", href: "/#team" },
-                { label: "Insights", href: "/#" },
-                { label: "Careers", href: "/#" },
+                { label: "About Zytheq", href: "/about" },
+                { label: "Case Studies", href: "/work" },
+                { label: "Leadership", href: "/about" },
+                { label: "Insights", href: "/insights" },
+                { label: "Careers", href: "/careers" },
               ].map((item) => (
                 <li key={item.label}>
                   <Link href={item.href} className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-200">
@@ -101,17 +108,34 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-16 pt-8 border-t border-border-subtle flex flex-col items-center text-center gap-4 md:flex-row md:justify-between md:text-left">
-          <p className="text-xs text-text-muted">
-            &copy; {new Date().getFullYear()} Zytheq. All rights reserved.
-          </p>
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
+            <p className="text-xs text-text-muted">
+              &copy; {new Date().getFullYear()} Zytheq. All rights reserved.
+            </p>
+            <div className="flex items-center gap-3">
+              <Link href="/privacy" className="text-xs text-text-muted hover:text-text-primary transition-colors duration-200">
+                Privacy Policy
+              </Link>
+              <span className="text-text-muted">&middot;</span>
+              <Link href="/terms" className="text-xs text-text-muted hover:text-text-primary transition-colors duration-200">
+                Terms of Service
+              </Link>
+            </div>
+          </div>
           <div className="flex items-center gap-4 sm:gap-6">
-            {["Twitter", "LinkedIn", "GitHub"].map((social) => (
+            {[
+              { label: "Twitter", href: "https://twitter.com/zytheq" },
+              { label: "LinkedIn", href: "https://linkedin.com/company/zytheq" },
+              { label: "GitHub", href: "https://github.com/zytheq" },
+            ].map((social) => (
               <a
-                key={social}
-                href="#"
+                key={social.label}
+                href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-xs text-text-muted hover:text-accent transition-colors duration-200 py-1"
               >
-                {social}
+                {social.label}
               </a>
             ))}
           </div>
