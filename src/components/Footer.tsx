@@ -17,7 +17,7 @@ const tickerItems = [
 
 export default function Footer() {
   return (
-    <footer className="relative border-t border-border-subtle">
+    <footer className="relative border-t border-border-subtle overflow-hidden">
       {/* Currently building ticker */}
       <div className="overflow-hidden py-4 border-b border-border-subtle">
         <div className="flex animate-ticker whitespace-nowrap">

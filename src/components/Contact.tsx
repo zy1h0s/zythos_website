@@ -10,7 +10,7 @@ export default function Contact() {
   const [step, setStep] = useState(0);
 
   return (
-    <section id="contact" className="relative py-16 sm:py-24 lg:py-32">
+    <section id="contact" className="relative py-16 sm:py-24 lg:py-32 overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-accent/[0.03] rounded-full blur-[120px]" />
 

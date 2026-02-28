@@ -22,14 +22,14 @@ export default function Home() {
   }, []);
 
   return (
-    <>
+    <div className="overflow-x-hidden w-full">
       <Loader onComplete={handleLoadComplete} />
       {loaded && (
         <>
           <CustomCursor />
           <ScrollProgress />
           <Navigation />
-          <main>
+          <main className="overflow-x-hidden">
             <Hero />
             <About />
             <Services />
@@ -42,6 +42,6 @@ export default function Home() {
           <Footer />
         </>
       )}
-    </>
+    </div>
   );
 }
