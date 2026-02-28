@@ -88,9 +88,10 @@ export default function Navigation() {
 
       {/* Mobile menu overlay - full screen */}
       <div
-        className={`lg:hidden fixed inset-0 bg-bg-primary/98 backdrop-blur-xl z-40 transition-all duration-500 ${
+        className={`lg:hidden fixed inset-0 z-40 transition-all duration-500 ${
           mobileOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
+        style={{ backgroundColor: "rgba(10, 10, 10, 0.99)" }}
       >
         <div className="flex flex-col items-center justify-center h-full gap-7 sm:gap-8 px-6">
           {navLinks.map((link) => (
