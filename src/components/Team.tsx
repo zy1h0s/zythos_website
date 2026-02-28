@@ -6,7 +6,7 @@ const team = [
     name: "Alex Chen",
     role: "CEO & Co-Founder",
     tags: ["Strategy", "Product", "Growth"],
-    quote: "I believe the best companies are built by the best people. Full stop.",
+    quote: "The best software companies are built by the best developers. Staff augmentation done right changes everything.",
     color: "from-amber-500 to-orange-600",
     initials: "AC",
   },
@@ -14,7 +14,7 @@ const team = [
     name: "Sarah Okafor",
     role: "CTO & Co-Founder",
     tags: ["Architecture", "AI/ML", "Cloud"],
-    quote: "Code is craft. Every system we build should be something we're proud of.",
+    quote: "Code is craft. Every custom software system we build should be production-grade and something we're proud of.",
     color: "from-violet-500 to-purple-600",
     initials: "SO",
   },
@@ -22,7 +22,7 @@ const team = [
     name: "James Reeves",
     role: "VP of Talent",
     tags: ["Recruiting", "Culture", "Operations"],
-    quote: "A great hire doesn't just fill a seat — they raise the ceiling for everyone.",
+    quote: "A great developer placement doesn't just fill a seat - they raise the ceiling for the entire engineering team.",
     color: "from-emerald-500 to-teal-600",
     initials: "JR",
   },
@@ -30,7 +30,7 @@ const team = [
     name: "Maya Patel",
     role: "Head of Engineering",
     tags: ["Full-Stack", "DevOps", "Systems"],
-    quote: "Ship fast, but never ship broken. Speed and quality aren't enemies.",
+    quote: "Ship fast, but never ship broken. Speed and quality aren't enemies in custom software development.",
     color: "from-rose-500 to-pink-600",
     initials: "MP",
   },
@@ -38,7 +38,7 @@ const team = [
     name: "David Kim",
     role: "Head of Design",
     tags: ["UX", "Product Design", "Research"],
-    quote: "Design isn't decoration. It's how things work, feel, and connect.",
+    quote: "Design isn't decoration. It's how software products work, feel, and convert.",
     color: "from-sky-500 to-blue-600",
     initials: "DK",
   },
@@ -46,7 +46,7 @@ const team = [
     name: "Elena Volkov",
     role: "Head of Consulting",
     tags: ["Enterprise", "Staffing", "Advisory"],
-    quote: "We don't just place talent. We build partnerships that last.",
+    quote: "We don't just do IT staffing. We build technical recruiting partnerships that last.",
     color: "from-amber-500 to-yellow-600",
     initials: "EV",
   },
@@ -59,13 +59,13 @@ export default function Team() {
     <section id="team" className="relative py-16 sm:py-24 lg:py-32 bg-bg-secondary">
       <div ref={sectionRef} className="reveal max-w-7xl mx-auto px-6">
         <div className="text-center mb-10 sm:mb-16">
-          <span className="text-xs uppercase tracking-[0.2em] text-accent font-semibold">The Minds</span>
+          <span className="text-xs uppercase tracking-[0.2em] text-accent font-semibold">Meet Our Leadership Team</span>
           <h2 className="mt-4 font-display font-bold text-[clamp(2rem,5vw,4rem)] leading-[1.1]">
-            The people behind{" "}
-            <span className="text-gradient">the power.</span>
+            The Leaders Behind Our{" "}
+            <span className="text-gradient">Staff Augmentation & Software Development Company.</span>
           </h2>
           <p className="mt-4 text-sm sm:text-base text-text-secondary max-w-xl mx-auto">
-            Operators, builders, and advisors who&apos;ve done it before — and do it differently every time.
+            Engineering operators, software builders, and technical recruiting advisors who&apos;ve scaled teams and shipped products - and do it differently every time.
           </p>
         </div>
 

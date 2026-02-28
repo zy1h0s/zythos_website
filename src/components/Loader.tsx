@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export default function Loader({ onComplete }: { onComplete: () => void }) {
   const [progress, setProgress] = useState(0);
@@ -33,10 +34,15 @@ export default function Loader({ onComplete }: { onComplete: () => void }) {
     >
       <div className="flex flex-col items-center gap-8">
         {/* Logo animation */}
-        <div className="relative">
-          <div className="w-16 h-16 rounded-2xl bg-accent flex items-center justify-center animate-pulse-glow">
-            <span className="font-display font-bold text-bg-primary text-2xl">Z</span>
-          </div>
+        <div className="relative animate-pulse-glow rounded-2xl">
+          <Image
+            src="/logo.png"
+            alt="Zytheq"
+            width={80}
+            height={80}
+            className="w-16 h-16 sm:w-20 sm:h-20"
+            priority
+          />
         </div>
 
         {/* Progress bar */}

@@ -4,21 +4,21 @@ import { useState } from "react";
 
 const testimonials = [
   {
-    quote: "Zythos didn't just fill seats. They understood our architecture, our culture, and found engineers who elevated both. Three of our tech leads came through them.",
+    quote: "Zytheq didn't just fill seats with staff augmentation. They understood our architecture, our culture, and found senior engineers who elevated both. Three of our tech leads were placed through their technical recruiting team.",
     name: "Marcus Thompson",
     title: "CTO",
     company: "Meridian Finance",
     initials: "MT",
   },
   {
-    quote: "We came to Zythos for a mobile app. We left with a mobile app, a web platform, and a data pipeline we didn't know we needed. They think bigger than the brief.",
+    quote: "We came to Zytheq for mobile app development. We left with a mobile app, a web platform, and a data pipeline we didn't know we needed. Their custom software development team thinks bigger than the brief.",
     name: "Lisa Park",
     title: "CEO",
     company: "HealthBridge",
     initials: "LP",
   },
   {
-    quote: "Fourteen engineers in six weeks, all senior, all shipping code by week two. I've never seen a staffing firm operate at this speed with this quality.",
+    quote: "Fourteen software engineers in six weeks, all senior, all shipping code by week two. I've never seen an IT staff augmentation agency operate at this speed with this quality.",
     name: "Raj Mehta",
     title: "VP of Engineering",
     company: "CartStack",
@@ -34,10 +34,10 @@ export default function Testimonials() {
     <section className="relative py-16 sm:py-24 lg:py-32 bg-bg-secondary">
       <div ref={sectionRef} className="reveal max-w-5xl mx-auto px-6">
         <div className="text-center mb-10 sm:mb-16">
-          <span className="text-xs uppercase tracking-[0.2em] text-accent font-semibold">Proof</span>
+          <span className="text-xs uppercase tracking-[0.2em] text-accent font-semibold">Case Studies</span>
           <h2 className="mt-4 font-display font-bold text-[clamp(2rem,5vw,3rem)] leading-[1.1]">
-            Don&apos;t take our word.{" "}
-            <span className="text-gradient">Take theirs.</span>
+            What Clients Say About Our{" "}
+            <span className="text-gradient">Staff Augmentation & Development Services.</span>
           </h2>
         </div>
 

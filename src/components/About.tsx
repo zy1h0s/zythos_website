@@ -2,10 +2,10 @@
 import { useScrollReveal, useCountUp } from "@/lib/useScrollReveal";
 
 const stats = [
-  { value: 237, suffix: "", label: "Placements in 2024" },
-  { value: 94, suffix: "%", label: "Retention Rate" },
-  { value: 47, prefix: "$", suffix: "M", label: "In Products Shipped" },
-  { value: 12, suffix: "", label: "Countries, 1 Standard" },
+  { value: 237, suffix: "", label: "Engineers Placed via Staff Augmentation in 2024" },
+  { value: 94, suffix: "%", label: "Engineer Retention Rate at 12 Months" },
+  { value: 47, prefix: "$", suffix: "M", label: "In Custom Software Shipped" },
+  { value: 12, suffix: "", label: "Countries with Nearshore Developers Available" },
 ];
 
 export default function About() {
@@ -19,27 +19,24 @@ export default function About() {
       <div ref={sectionRef} className="reveal max-w-7xl mx-auto px-6">
         {/* Section header */}
         <div className="max-w-3xl mb-12 sm:mb-16 lg:mb-20">
-          <span className="text-xs uppercase tracking-[0.2em] text-accent font-semibold">The Fusion</span>
+          <span className="text-xs uppercase tracking-[0.2em] text-accent font-semibold">Staff Augmentation Meets Software Development</span>
           <h2 className="mt-4 font-display font-bold text-[clamp(2rem,5vw,4rem)] leading-[1.1]">
-            Not just staffing.{" "}
+            Not Just IT Staffing.{" "}
             <br className="hidden md:block" />
-            Not just software.{" "}
-            <span className="text-gradient">The alchemy of both.</span>
+            Not Just Software Development.{" "}
+            <span className="text-gradient">Both - Under One Roof.</span>
           </h2>
           <p className="mt-6 text-text-secondary text-base sm:text-lg leading-relaxed max-w-2xl">
-            Most companies do one or the other. We fused consulting and
-            engineering into a single entity — because the teams that build great
-            products need to be great themselves. Zythos is where exceptional
-            talent meets technical mastery.
+            Most companies offer staff augmentation or custom software development - never both. Zytheq fused technical recruiting and product engineering into a single entity. Hire developers to scale your team, or let our labs build your product from scratch. That's the Zytheq advantage.
           </p>
         </div>
 
         {/* Fusion visual */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 sm:mb-16 lg:mb-20">
           <FusionCard
-            label="Talent"
-            title="Zythos Talent"
-            description="We find, vet, and place engineers, architects, and technical leaders. Not resumes — real operators who ship."
+            label="IT Staff Augmentation"
+            title="Zytheq Talent"
+            description="IT staff augmentation services that place senior engineers, software architects, and technical leaders into your team. Not resumes - vetted developers who ship code from day one."
             icon={<TalentIcon />}
           />
           <div className="hidden md:flex items-center justify-center">
@@ -48,9 +45,9 @@ export default function About() {
             </div>
           </div>
           <FusionCard
-            label="Technology"
-            title="Zythos Labs"
-            description="We design, build, and ship software products. From MVPs to enterprise platforms — we write the code."
+            label="Custom Software Development"
+            title="Zytheq Labs"
+            description="A custom software development company that designs, builds, and ships products. From MVP development for startups to enterprise software platforms - we write the code."
             icon={<LabsIcon />}
           />
         </div>

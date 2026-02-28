@@ -16,13 +16,13 @@ export default function Contact() {
 
       <div ref={sectionRef} className="reveal max-w-4xl mx-auto px-6">
         <div className="text-center mb-10 sm:mb-16">
-          <span className="text-xs uppercase tracking-[0.2em] text-accent font-semibold">Let&apos;s Talk</span>
+          <span className="text-xs uppercase tracking-[0.2em] text-accent font-semibold">Get a Free Consultation</span>
           <h2 className="mt-4 font-display font-bold text-[clamp(2rem,5vw,4rem)] leading-[1.1]">
-            Ready to build{" "}
-            <span className="text-gradient">something real?</span>
+            Ready to Hire Developers or Build{" "}
+            <span className="text-gradient">Custom Software?</span>
           </h2>
           <p className="mt-4 text-sm sm:text-base text-text-secondary max-w-xl mx-auto">
-            Tell us what you need. We&apos;ll tell you how we&apos;d approach it — no fluff, no generic proposals.
+            Tell us what you need - staff augmentation, custom software development, or both. We&apos;ll tell you how we&apos;d approach it. No fluff, no generic proposals.
           </p>
         </div>
 
@@ -38,8 +38,8 @@ export default function Contact() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               </div>
-              <h3 className="font-display font-bold text-base sm:text-lg mb-2">I need talent</h3>
-              <p className="text-xs sm:text-sm text-text-secondary">Scale your team with vetted engineers, architects, and technical leaders.</p>
+              <h3 className="font-display font-bold text-base sm:text-lg mb-2">I Need Staff Augmentation</h3>
+              <p className="text-xs sm:text-sm text-text-secondary">Scale your engineering team with vetted software engineers, architects, and technical leaders through IT staff augmentation.</p>
             </button>
 
             <button
@@ -51,8 +51,8 @@ export default function Contact() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                 </svg>
               </div>
-              <h3 className="font-display font-bold text-base sm:text-lg mb-2">I need a product built</h3>
-              <p className="text-xs sm:text-sm text-text-secondary">Custom software, from MVP to enterprise platform. Design through deployment.</p>
+              <h3 className="font-display font-bold text-base sm:text-lg mb-2">I Need Custom Software Built</h3>
+              <p className="text-xs sm:text-sm text-text-secondary">Custom software development from MVP to enterprise platform. Product design through deployment by a dedicated development team.</p>
             </button>
           </div>
         ) : (
@@ -93,7 +93,7 @@ export default function Contact() {
               {step === 2 && path === "talent" && (
                 <div className="space-y-4 animate-fade-in-up">
                   <div>
-                    <label className="text-sm text-text-secondary mb-2 block">How many engineers do you need?</label>
+                    <label className="text-sm text-text-secondary mb-2 block">How many developers do you need to hire?</label>
                     <select className="w-full px-4 py-3 bg-bg-secondary border border-border-subtle rounded-xl text-base text-text-primary focus:outline-none focus:border-accent transition-colors">
                       <option>1-3</option>
                       <option>4-10</option>
@@ -102,7 +102,7 @@ export default function Contact() {
                     </select>
                   </div>
                   <div>
-                    <label className="text-sm text-text-secondary mb-2 block">Key skills needed</label>
+                    <label className="text-sm text-text-secondary mb-2 block">Key technical skills needed</label>
                     <input type="text" className="w-full px-4 py-3 bg-bg-secondary border border-border-subtle rounded-xl text-base text-text-primary placeholder:text-text-muted focus:outline-none focus:border-accent transition-colors" placeholder="React, Node.js, AWS..." />
                   </div>
                   <div>
@@ -124,8 +124,8 @@ export default function Contact() {
                     <select className="w-full px-4 py-3 bg-bg-secondary border border-border-subtle rounded-xl text-base text-text-primary focus:outline-none focus:border-accent transition-colors">
                       <option>Idea / Concept</option>
                       <option>MVP in progress</option>
-                      <option>Existing product — needs improvement</option>
-                      <option>Legacy system — needs rebuild</option>
+                      <option>Existing product - needs improvement</option>
+                      <option>Legacy system - needs rebuild</option>
                     </select>
                   </div>
                   <div>
@@ -151,8 +151,8 @@ export default function Contact() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <h3 className="font-display font-bold text-xl sm:text-2xl">We&apos;ll be in touch.</h3>
-                  <p className="text-sm sm:text-base text-text-secondary">Expect a response within 24 hours. No auto-responders — a real person who&apos;s read your brief.</p>
+                  <h3 className="font-display font-bold text-xl sm:text-2xl">Your consultation request is submitted.</h3>
+                  <p className="text-sm sm:text-base text-text-secondary">Expect a response within 24 hours from a real person - not an auto-responder. Whether you need staff augmentation or custom software development, we&apos;ve read your brief.</p>
                 </div>
               )}
 

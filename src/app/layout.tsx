@@ -16,9 +16,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Zythos — Raw Potential. Refined Power.",
+  title: "Zytheq - Raw Potential. Refined Power.",
   description:
-    "We build teams that build products. Zythos is the fusion of elite consulting & staffing with custom software development.",
+    "We build teams that build products. Zytheq is the fusion of elite consulting & staffing with custom software development.",
+  icons: { icon: '/logo.png' },
   keywords: [
     "staffing",
     "consulting",
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
     "team scaling",
   ],
   openGraph: {
-    title: "Zythos — Raw Potential. Refined Power.",
+    title: "Zytheq - Raw Potential. Refined Power.",
     description:
       "We build teams that build products. The fusion of elite talent and technical mastery.",
     type: "website",

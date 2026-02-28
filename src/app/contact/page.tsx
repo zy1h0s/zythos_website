@@ -4,7 +4,7 @@ import PageHero from "@/components/PageHero";
 import Contact from "@/components/Contact";
 
 export const metadata = {
-  title: "Let's Talk — Zythos",
+  title: "Let's Talk - Zytheq",
   description: "Tell us what you need. We'll tell you how we'd approach it.",
 };
 

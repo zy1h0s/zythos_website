@@ -47,13 +47,13 @@ export default function TechStack() {
     <section className="relative py-16 sm:py-24 lg:py-32">
       <div ref={sectionRef} className="reveal max-w-7xl mx-auto px-6">
         <div className="text-center mb-10 sm:mb-16">
-          <span className="text-xs uppercase tracking-[0.2em] text-accent font-semibold">Expertise</span>
+          <span className="text-xs uppercase tracking-[0.2em] text-accent font-semibold">Technical Expertise</span>
           <h2 className="mt-4 font-display font-bold text-[clamp(2rem,5vw,4rem)] leading-[1.1]">
-            Our technical{" "}
-            <span className="text-gradient">arsenal.</span>
+            Our Software Development{" "}
+            <span className="text-gradient">Tech Stack.</span>
           </h2>
           <p className="mt-4 text-text-secondary max-w-xl mx-auto">
-            Deep expertise across the modern stack. Not logos — real, production-grade proficiency.
+            Deep expertise across the modern software development stack. Not logos on a slide - real, production-grade proficiency from engineers you can hire or teams you can deploy.
           </p>
         </div>
 

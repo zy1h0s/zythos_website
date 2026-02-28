@@ -4,21 +4,21 @@ import PageHero from "@/components/PageHero";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Services — Zythos",
+  title: "Services - Zytheq",
   description: "Staff your team or build your product. Two verticals, one standard of excellence.",
 };
 
 const verticals = [
   {
-    tag: "Zythos Talent",
+    tag: "Zytheq Talent",
     title: "Scale Your Team",
-    description: "Elite engineers, architects, and technical leaders — vetted, placed, and performing. Not resumes. Real operators.",
+    description: "Elite engineers, architects, and technical leaders - vetted, placed, and performing. Not resumes. Real operators.",
     href: "/services/talent",
     services: ["Staff Augmentation", "Executive Search", "Contract Staffing", "Team Scaling", "Talent Advisory"],
     gradient: "from-violet-500/20 to-purple-500/20",
   },
   {
-    tag: "Zythos Labs",
+    tag: "Zytheq Labs",
     title: "Build Your Product",
     description: "Full-stack product development from concept to deployment. We write the code, design the experience, and ship it.",
     href: "/services/labs",
@@ -36,7 +36,7 @@ export default function ServicesPage() {
           tag="What We Build"
           title="Two verticals."
           accent="One standard."
-          description="Whether you need to scale your engineering team or build a product from scratch — or both — we deliver with precision."
+          description="Whether you need to scale your engineering team or build a product from scratch - or both - we deliver with precision."
         />
 
         <section className="py-20 max-w-7xl mx-auto px-6">

@@ -35,11 +35,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 md:col-span-1 text-center sm:text-left">
             <Link href="/" className="inline-flex items-center gap-2 mb-4">
-              <Image src="/logo.png" alt="Zythos" width={32} height={32} className="w-7 h-7 sm:w-8 sm:h-8" />
-              <span className="font-display font-bold text-xl">ZYTHOS</span>
+              <Image src="/logo.png" alt="Zytheq" width={32} height={32} className="w-7 h-7 sm:w-8 sm:h-8" />
+              <span className="font-display font-bold text-xl">ZYTHEQ</span>
             </Link>
             <p className="text-sm text-text-secondary leading-relaxed">
-              We transform raw potential into refined power. The fusion of elite talent and technical mastery.
+              Zytheq is the staff augmentation and custom software development company that transforms tech talent into shipped products. Hire developers or build software - all under one roof.
             </p>
           </div>
 
@@ -62,9 +62,9 @@ export default function Footer() {
             <h4 className="font-display font-semibold text-sm uppercase tracking-wider text-accent mb-4">Company</h4>
             <ul className="space-y-3">
               {[
-                { label: "The Fusion", href: "/#about" },
-                { label: "Our Work", href: "/#work" },
-                { label: "The Minds", href: "/#team" },
+                { label: "About Zytheq", href: "/#about" },
+                { label: "Case Studies", href: "/#work" },
+                { label: "Leadership", href: "/#team" },
                 { label: "Insights", href: "/#" },
                 { label: "Careers", href: "/#" },
               ].map((item) => (
@@ -79,9 +79,9 @@ export default function Footer() {
 
           {/* Newsletter */}
           <div className="text-center sm:text-left">
-            <h4 className="font-display font-semibold text-sm uppercase tracking-wider text-accent mb-4">Stay Sharp</h4>
+            <h4 className="font-display font-semibold text-sm uppercase tracking-wider text-accent mb-4">Tech & Talent Insights</h4>
             <p className="text-sm text-text-secondary mb-4">
-              Insights on tech, talent, and building things that matter. No spam. Ever.
+              Insights on staff augmentation, software development, and scaling engineering teams. No spam. Ever.
             </p>
             <form className="flex flex-col sm:flex-row gap-2" onSubmit={(e) => e.preventDefault()}>
               <input
@@ -102,7 +102,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-16 pt-8 border-t border-border-subtle flex flex-col items-center text-center gap-4 md:flex-row md:justify-between md:text-left">
           <p className="text-xs text-text-muted">
-            &copy; {new Date().getFullYear()} Zythos. All rights reserved.
+            &copy; {new Date().getFullYear()} Zytheq. All rights reserved.
           </p>
           <div className="flex items-center gap-4 sm:gap-6">
             {["Twitter", "LinkedIn", "GitHub"].map((social) => (

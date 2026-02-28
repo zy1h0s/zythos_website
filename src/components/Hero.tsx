@@ -65,7 +65,7 @@ export default function Hero() {
       for (let i = 0; i < particles.length; i++) {
         const p = particles[i];
 
-        // Mouse repulsion (skip on mobile — no hover on touch)
+        // Mouse repulsion (skip on mobile - no hover on touch)
         if (!isMobile) {
           const dx = mx - p.x;
           const dy = my - p.y;
@@ -146,23 +146,22 @@ export default function Hero() {
         {/* Tagline */}
         <div className={`inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full border border-border-subtle bg-bg-secondary/50 mb-8 transition-all duration-700 delay-200 ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
           <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-          <span className="text-[10px] sm:text-xs text-text-secondary tracking-wider uppercase">Talent meets Technology</span>
+          <span className="text-[10px] sm:text-xs text-text-secondary tracking-wider uppercase">Staff Augmentation + Custom Software Development</span>
         </div>
 
         {/* Headline */}
         <h1 className="font-display font-bold leading-[0.9] tracking-tight">
           <span className={`block text-[clamp(2rem,8vw,7rem)] text-text-primary transition-all duration-700 delay-300 ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-            Raw Potential.
+            Hire Developers.
           </span>
           <span className={`block text-[clamp(2rem,8vw,7rem)] text-gradient transition-all duration-700 delay-500 ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-            Refined Power.
+            Build Products.
           </span>
         </h1>
 
         {/* Subtitle */}
         <p className={`mt-5 sm:mt-8 text-base sm:text-lg md:text-xl text-text-secondary max-w-2xl mx-auto leading-relaxed transition-all duration-700 delay-700 ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
-          We build teams that build products. The fusion of elite talent
-          and technical mastery — under one roof.
+          The staff augmentation and software development company that scales your engineering team while building your product - under one roof.
         </p>
 
         {/* CTAs */}
@@ -171,14 +170,14 @@ export default function Hero() {
             href="#services"
             className="group w-full sm:w-auto px-8 py-4 bg-accent text-bg-primary font-semibold rounded-full hover:bg-accent-hover transition-all duration-300 hover:shadow-[0_0_40px_rgba(255,184,0,0.3)] flex items-center justify-center gap-2"
           >
-            Scale Your Team
+            Scale Your Engineering Team
             <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </a>
           <a
             href="#services"
             className="group w-full sm:w-auto px-8 py-4 border border-border-medium text-text-primary font-semibold rounded-full hover:bg-white/5 transition-all duration-300 flex items-center justify-center gap-2"
           >
-            Build Your Product
+            Build Custom Software
             <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </a>
         </div>
@@ -187,7 +186,7 @@ export default function Hero() {
       {/* Scroll indicator */}
       <div className={`absolute bottom-8 left-1/2 -translate-x-1/2 hidden sm:block transition-all duration-700 delay-[1200ms] ${loaded ? "opacity-100" : "opacity-0"}`}>
         <a href="#about" className="flex flex-col items-center gap-2 group" aria-label="Scroll down">
-          <span className="text-[10px] uppercase tracking-[0.2em] text-text-muted group-hover:text-accent transition-colors">Scroll</span>
+          <span className="text-[10px] uppercase tracking-[0.2em] text-text-muted group-hover:text-accent transition-colors">Explore Our Services</span>
           <div className="w-5 h-8 border border-border-medium rounded-full flex justify-center group-hover:border-accent transition-colors">
             <div className="w-1 h-2 bg-text-muted rounded-full mt-1.5 animate-bounce group-hover:bg-accent transition-colors" />
           </div>

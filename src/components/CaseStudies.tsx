@@ -4,41 +4,41 @@ import { useState } from "react";
 
 const caseStudies = [
   {
-    industry: "Fintech",
-    title: "Rebuilt a Payment Platform",
+    industry: "Fintech Software Development",
+    title: "Custom Payment Platform Development",
     type: "hybrid" as const,
-    challenge: "Legacy payment system couldn't scale past 10K daily transactions. Engineering team of 3 was stretched thin.",
-    approach: "Staffed 8 senior engineers while our labs team rebuilt the core processing engine from scratch.",
+    challenge: "Legacy payment platform couldn't scale past 10K daily transactions. The in-house engineering team of 3 was stretched thin and needed staff augmentation fast.",
+    approach: "Placed 8 senior software engineers via IT staff augmentation while our custom software development team rebuilt the core processing engine from scratch.",
     metrics: [
-      { value: "40%", label: "Faster Processing" },
-      { value: "8", label: "Engineers Placed" },
-      { value: "$2.1M", label: "Annual Savings" },
+      { value: "40%", label: "Faster Transaction Processing" },
+      { value: "8", label: "Engineers Placed via Staff Augmentation" },
+      { value: "$2.1M", label: "in Annual Infrastructure Savings" },
     ],
     gradient: "from-amber-500/20 to-orange-500/20",
   },
   {
-    industry: "Healthcare",
-    title: "Launched a Telehealth MVP",
+    industry: "Healthcare Software Development",
+    title: "HIPAA-Compliant Telehealth MVP Development",
     type: "labs" as const,
-    challenge: "Startup needed HIPAA-compliant telehealth platform to market in 4 months. Zero existing tech team.",
-    approach: "Full product build: design, architecture, development, and cloud infrastructure — all Zythos Labs.",
+    challenge: "Healthcare startup needed a HIPAA-compliant telehealth platform built and launched in 4 months. Zero existing tech team - needed a dedicated development team.",
+    approach: "Full custom software development: product design, cloud architecture, development, and deployment - all Zytheq Labs. Software development for startups, done right.",
     metrics: [
-      { value: "14wks", label: "To Launch" },
-      { value: "50K+", label: "Users Month 1" },
+      { value: "14wks", label: "From Concept to Launch" },
+      { value: "50K+", label: "Users in Month One" },
       { value: "99.9%", label: "Uptime" },
     ],
     gradient: "from-emerald-500/20 to-teal-500/20",
   },
   {
-    industry: "E-Commerce",
-    title: "Scaled Engineering 5x",
+    industry: "E-Commerce Engineering",
+    title: "Scaled Engineering Team 5x with Staff Augmentation",
     type: "talent" as const,
-    challenge: "Series B startup growing fast. Needed to go from 10 to 50 engineers in 6 months without breaking culture.",
-    approach: "Embedded talent team handled sourcing, vetting, and onboarding. We placed 42 engineers across 6 squads.",
+    challenge: "Series B e-commerce startup growing fast. Needed to scale their engineering team from 10 to 50 developers in 6 months without breaking culture - a massive IT staffing challenge.",
+    approach: "Our embedded technical recruiting team handled sourcing, vetting, and onboarding. We placed 42 software engineers across 6 product squads through dedicated staff augmentation services.",
     metrics: [
-      { value: "42", label: "Engineers Placed" },
-      { value: "94%", label: "Retention at 1yr" },
-      { value: "3x", label: "Revenue Growth" },
+      { value: "42", label: "Developers Placed" },
+      { value: "94%", label: "Retention at 12 Months" },
+      { value: "3x", label: "Revenue Growth Post-Scaling" },
     ],
     gradient: "from-violet-500/20 to-purple-500/20",
   },
@@ -60,10 +60,10 @@ export default function CaseStudies() {
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 sm:gap-6 mb-10 sm:mb-16">
           <div>
-            <span className="text-xs uppercase tracking-[0.2em] text-accent font-semibold">Proof</span>
+            <span className="text-xs uppercase tracking-[0.2em] text-accent font-semibold">Case Studies</span>
             <h2 className="mt-4 font-display font-bold text-[clamp(2rem,5vw,4rem)] leading-[1.1]">
-              Work that speaks{" "}
-              <span className="text-gradient">louder.</span>
+              Staff Augmentation & Software Development Results That{" "}
+              <span className="text-gradient">Speak.</span>
             </h2>
           </div>
 
